@@ -22,7 +22,7 @@ const Footer = () => {
           <Slogan>Currently learning Progressive Web Apps...</Slogan>
         </CompanyContainer>
       <SocialContainer>
-        <SocialIcons href="https://github.com">
+        <SocialIcons href="https://github.com/Jagan-03">
           <AiFillGithub />
         </SocialIcons>
       </SocialContainer>
