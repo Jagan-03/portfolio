@@ -89,11 +89,11 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-color:#d4c0c0;
+color:#fff;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #6b3030;
-border-radius: 15px;
+background: #dc3545;
+border-radius: 10px;
 transition: 0.5s;
 &:hover{
   background: #801414;
@@ -103,10 +103,12 @@ transition: 0.5s;
 
 export const TagList = styled.ul`
 display: flex;
-justify-content: space-around;
 padding: 2rem;
+justify-content: center;
+flex-wrap: wrap;
 `
 export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
+margin-left: 1.5rem;
 `

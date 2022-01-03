@@ -12,9 +12,9 @@ const Hero = (props) => (
           I'm a Web Developer
         </SectionTitle>
         <SectionText>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio porro vel cum repellat quidem inventore debitis cupiditate numquam, quos officiis esse ipsa, nam modi architecto atque vero, eius accusantium quo.
+          Hey! I'm Jaganath. I'm a Mechanical Engineer turned Web Developer. I always loved the feeling of creation, and getting into web development gave me lot of things including that.
         </SectionText>
-        <Button>Learn More</Button>
+        <a href="https://drive.google.com/file/d/1TIf5DvBnp2fP7Skdt2XA68OhGgdsHILJ/view?usp=sharing" target="_blank"><Button>My Resume</Button></a>
       </LeftSection>
     </Section> 
 );

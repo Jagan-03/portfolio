@@ -19,14 +19,11 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating one project at a time...</Slogan>
+          <Slogan>Currently learning Progressive Web Apps...</Slogan>
         </CompanyContainer>
       <SocialContainer>
         <SocialIcons href="https://github.com">
           <AiFillGithub />
-        </SocialIcons>
-        <SocialIcons href="https://linkedin.com">
-          <AiFillLinkedin />
         </SocialIcons>
       </SocialContainer>
       </SocialIconsContainer>

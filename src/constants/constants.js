@@ -1,46 +1,63 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: "YOUTUBE CLONE",
+    description:
+      "Fully functional youtube clone using React, Redux, Firebase and Youtube data API.",
+    image: "/images/yt.png",
+    tags: ["REACT", "REDUX", "FIREBASE", "FIRESTORE CLOUD STORAGE", "BOOTSTRAP", "MATERIAL-UI"],
+    source: "https://github.com/Jagan-03/youtube_clone",
+    visit: "https://clone-91ff8.web.app/",
     id: 0,
   },
   {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: "E-Commerce",
+    description:
+      "A simple E-Commerce application built using React, Bootstrap for frontend && Node, MongoDB for backend.",
+    image: "/images/cs.png",
+    tags: ["React", "Redux", "Google OAuth", "Node", "Mongo DB Atlas"],
+    source: "https://github.com/Jagan-03/crafty_soul_client",
+    backend : "https://github.com/Jagan-03/crafty_soul_server",
+    visit: "https://hardcore-gates-aab30d.netlify.app/",
     id: 1,
   },
   {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: "CODE VAULT",
+    description:
+      "This is a Code storage application, which allows us to write, run and save our code and access it for future use. This application is deployed in AWS amplify. AWS-AppSync is used for the backend.",
+    image: "/images/cv.png",
+    tags: ["React", "Bootstrap", "Redux", "AWS-Cognito", "AWS-Amplify", "AWS-AppSync", "GraphQL"],
+    source: "https://github.com/Jagan-03/code_vault",
+    visit: "https://main.d2iioy84hwwyo9.amplifyapp.com/",
     id: 2,
   },
   {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: "REAL ESTATE APPLICATION",
+    description:
+      "This application is developed using Next.js, which is a React framework that enables several features like server side rendering and generating static websites.",
+    image: "/images/re.png",
+    tags: ["React", "Next.js", "Chakra-ui", "Google-Oauth", "JWT", "MongoDB"],
+    source: "https://github.com/Jagan-03/Buy_real_client",
+    backend : "https://github.com/Jagan-03/Buy_real_server",
+    visit: "https://happy-pike-ce2616.netlify.app/",
     id: 3,
   },
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  {
+    year: "2018 - 19",
+    text: "Started my career as a Project Executive at Godrej & Boyce",
+  },
+  {
+    year: "2019 - 20",
+    text: "Got promoted as Senior executive in Production Planning & Control at Godrej & Boyce",
+  },
+  {
+    year: 2021,
+    text: "Started exploring the web development world and took my first web development course at Udemy.",
+  },
+  {
+    year: "Present",
+    text: 'Completed the Full stack Web development course at GUVI. Now i"m a certified Full stack web developer, ready to explore the new phase of my career.',
+  },
 ];
